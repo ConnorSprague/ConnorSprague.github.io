@@ -534,6 +534,7 @@
 		height:100%px;
 		padding: 2%;
 		float:left;
+		overflow: hidden;
 	}
 	.container_right
 	{
@@ -541,6 +542,7 @@
 		height:100%;
 		padding: 2%;
 		float:right;
+		overflow: hidden;
 	}
 
 /*********************************************************************************/
