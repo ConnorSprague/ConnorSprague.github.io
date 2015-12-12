@@ -444,15 +444,15 @@
 
 	#wrapper1
 	{
-		background: #FFF;
+		background: #0062F1;
+		padding: 2%;
+		
 	}
 
 	#wrapper2
 	{
-		background: #F3F3F3;
-		padding: 5em 0em;
-		text-align: center;
-		height:500px;
+		background: #3E8DFF;
+		padding: 2%;
 	}
 
 	#wrapper3
