@@ -508,6 +508,18 @@
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
+	.page_head{
+		color: white;
+		padding: 5px 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.code_head{
+		color: white;
+		padding: 5px 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.embedded{
 		width:100%;
 		height: 300px;
