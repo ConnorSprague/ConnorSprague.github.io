@@ -605,6 +605,10 @@
 	#page
 	{
 	}
+	.buffer{
+		height:100px;
+		color: #FFFFFF;
+	}
 
 /*********************************************************************************/
 /* Content                                                                       */
@@ -628,7 +632,7 @@
 	}
 	.gist{
 		overflow: scroll;
-		height: 250px;
+		height: 500px;
 		width:100%;
 	}
 	#content
