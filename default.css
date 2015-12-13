@@ -267,7 +267,9 @@
         #slides {
       display: none
     }
-
+.slidejs-slide{
+	height:inherit;
+}
     .container {
       margin: 0 auto
     }
