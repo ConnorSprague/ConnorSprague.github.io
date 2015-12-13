@@ -270,9 +270,7 @@
 .slidejs-slide{
 	height:inherit;
 }
-    .container {
-      margin: 0 auto
-    }
+
 
     /* For tablets & smart phones */
     @media (max-width: 767px) {
