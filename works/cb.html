@@ -15,14 +15,15 @@ https://www.iconfinder.com/marcosebald
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+<meta name="description" content="Web development examples. Uses SlidesJS, a simple slideshow plugin for jQuery.">
+<meta name="viewport" content="width=device-width">
+<title>web dev examples</title>
+<meta name="keywords" content="Web Development" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-
+<link href="../default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="../words/font-awesome.min.css">
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
@@ -35,34 +36,53 @@ https://www.iconfinder.com/marcosebald
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+				<li><a href="../index.html" accesskey="1" title="">Homepage</a></li>
 				<li><a href="works.html" accesskey="2" title="">Works</a></li>
-				<li><a href="words.html" accesskey="3" title="">Words</a></li>
-				<li><a href="contact.html" accesskey="4" title="">Waterfall</a></li>
+				<li><a href="../word/words.html" accesskey="3" title="">Words</a></li>
+				<li><a href="../contact.html" accesskey="4" title="">Waterfall</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
+
 <div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
-</div>
-<div class="wrapper">
-	<div id="banner" class="container"><img src="https://daguchi.files.wordpress.com/2015/01/lego-print-ad.jpg" width="1200" height="500" alt="" /></div>
+	<div id="banner" class="container">
+		<h1>S+A Technologies Dermal Curette</h1>
+		<p><b>S+A Technologies</b> is a small company based out of Rolla Missouri focused on medical innovations ranging from medical apparatus to telemedicine.</p>
+		<p><b>One such medical device is the S+A Technologies Dermal Curette.</b></p>
+		<p>Much like the dichotomy between reusable shaving razors and plastic disposable razors, S+A Dermal Curettes aim to combine the professional precision feel of tradiotion Dermal Curettes with the affordability and low maintenance of disposable curettes.</p>
+		<p>S+A Dermal Curettes utilize an easy to exchange stainless steel blade mounted on a stainless steel handle. Eliminating the ecological impact of disposable blades while sustaining the precision of traditional systems.</p>
+	</div>
+	<div class="buffer"></div>
+	<div id="banner" class="container">
+    		<div id="slides">
+		<img src="https://cloud.githubusercontent.com/assets/16012579/12282961/2af0126a-b968-11e5-9e56-a34181bbb2aa.png" alt="#">
+      		<img src="https://cloud.githubusercontent.com/assets/16012579/12282962/2b09b468-b968-11e5-9584-e8cfe392cf14.jpg" alt="#">
+      		<img src="https://cloud.githubusercontent.com/assets/16012579/12282963/2b0ee640-b968-11e5-85d7-d50c5d7a0993.JPG" alt="#">
+      		<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="material-icons md-18">keyboard_arrow_left</i></a>
+      		<a href="#" class="slidesjs-next slidesjs-navigation"><i class="material-icons md-18">keyboard_arrow_right</i></a>
+    		</div>
+	</div>
+	
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="../words/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false
+      });
+    });
+  </script>
+
 </div>
 <div id="footer">
 	<div class="container">
