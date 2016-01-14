@@ -57,7 +57,10 @@
 		margin: 0px auto;
 		width: 1200px;
 	}
-	
+	.border1{
+		border: 2px solid #AAAAAA;
+		border-radius: 5px;
+	}
 
 /*********************************************************************************/
 /* Form Style                                                                    */
