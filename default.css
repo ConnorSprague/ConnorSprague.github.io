@@ -61,7 +61,10 @@
 		border: 2px solid #AAAAAA;
 		border-radius: 5px;
 	}
-
+	.border2{
+		border-top: 2px solid #AAAAAA;
+		border-bottom: 2px solid #AAAAAA;
+	}
 /*********************************************************************************/
 /* Form Style                                                                    */
 /*********************************************************************************/
