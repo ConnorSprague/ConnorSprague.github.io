@@ -160,7 +160,8 @@
 /* Image Style                                                                   */
 /*********************************************************************************/
 	.video{
-		margin:auto;
+		float:left;
+		margin: 0 auto;
 		padding: 10px 0;
 	}
 	.image
