@@ -658,34 +658,7 @@
 		padding-right: 100px;
 		border-right: 1px solid rgba(0,0,0,.1);
 	}
-	.two_column_container1
-	{
-		color: #85BDDE;
-		height: 600px;
-		width:100%;
-	}
-	.two_column_container2
-	{
-		color: #DAE0E6;
-		height: 600px;
-		width: 100%;
-	}
-	.container_left
-	{
-		width:40%;
-		height:100%px;
-		padding: 2%;
-		float:left;
-		overflow: hidden;
-	}
-	.container_right
-	{
-		width:40%;
-		height:100%;
-		padding: 2%;
-		float:right;
-		overflow: hidden;
-	}
+
 
 /*********************************************************************************/
 /* Sidebar                                                                       */
@@ -856,6 +829,38 @@
 	.clear
 	{
 		clear: both;
+	}
+	.two-column-text
+	{
+		width:60%;
+	}
+	.two_column_container1
+	{
+		color: #85BDDE;
+		height: 600px;
+		width:100%;
+	}
+	.two_column_container2
+	{
+		color: #DAE0E6;
+		height: 600px;
+		width: 100%;
+	}
+	.container_left
+	{
+		width:40%;
+		height:100%px;
+		padding: 2%;
+		float:left;
+		overflow: hidden;
+	}
+	.container_right
+	{
+		width:40%;
+		height:100%;
+		padding: 2%;
+		float:right;
+		overflow: hidden;
 	}
 /*********************************************************************************/
 /* Three Columns                                                                 */
