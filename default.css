@@ -677,7 +677,7 @@
 	#footer
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 3em 0em;
 		background: #E3F0F7;
 		text-align: center;
 	}
@@ -713,7 +713,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 3em 0em;
 		border-top: 20px solid rgba(255,255,255,0.08);
 		text-align: center;
 	}
