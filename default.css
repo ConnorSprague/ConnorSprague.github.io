@@ -832,7 +832,8 @@
 	}
 	.two-column-text
 	{
-		width:60%;
+		width:50%;
+		margin: auto;
 	}
 	.two_column_container1
 	{
