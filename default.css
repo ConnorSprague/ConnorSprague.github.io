@@ -683,7 +683,7 @@
 	{
 		overflow: hidden;
 		padding: 3em 0em;
-		background: #E3F0F7;
+		background: #72BBE2;
 		text-align: center;
 	}
 
@@ -913,7 +913,11 @@
 		width: 25%;
 		padding: 4%;
 	}
-	
+	#three-column .3images
+	{
+		width:25%;
+		height:50%;
+	}
 	#three-column .title
 	{
 		text-align: center;
